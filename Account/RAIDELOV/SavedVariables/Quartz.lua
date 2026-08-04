@@ -1,56 +1,51 @@
-
 Quartz3DB = {
 	["namespaces"] = {
-		["Swing"] = {
-		},
-		["Buff"] = {
-		},
-		["Interrupt"] = {
-		},
-		["Flight"] = {
-		},
+		["Swing"] = {},
+		["Buff"] = {},
+		["Interrupt"] = {},
+		["Flight"] = {},
 		["Pet"] = {
 			["profiles"] = {
-				["Default"] = {
-					["x"] = 658.5185392677136,
+				["main"] = {
+					["y"] = 625,
+					["x"] = 580,
 				},
 			},
 		},
 		["Player"] = {
 			["profiles"] = {
-				["Default"] = {
-					["x"] = 633.5185392677136,
+				["main"] = {
+					["y"] = 253,
+					["x"] = 580,
 				},
 			},
 		},
-		["GCD"] = {
-		},
+		["GCD"] = {},
 		["Focus"] = {
 			["profiles"] = {
-				["Default"] = {
-					["x"] = 658.5185392677136,
+				["main"] = {
+					["y"] = 625,
+					["x"] = 820,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
-				["Default"] = {
-					["x"] = 658.5185392677136,
+				["main"] = {
+					["y"] = 585,
+					["x"] = 580,
 				},
 			},
 		},
-		["Range"] = {
-		},
-		["Mirror"] = {
-		},
-		["Latency"] = {
-		},
-	},
-	["profileKeys"] = {
-		["Messier - Blackrock [PvP only]"] = "Default",
+		["Range"] = {},
+		["Mirror"] = {},
+		["Latency"] = {},
 	},
 	["profiles"] = {
-		["Default"] = {
+		["main"] = {
+			["modules"] = {
+				["Buff"] = false,
+			},
 		},
 	},
 }

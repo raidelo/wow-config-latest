@@ -1,9 +1,9 @@
 ShadowedUFDB = {
 	["profileKeys"] = {
-		["Messier - Blackrock [PvP only]"] = "Default",
+		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
-		["Default"] = {
+		["main"] = {
 			["powerColors"] = {
 				["MANA"] = {
 					["r"] = 0.3,

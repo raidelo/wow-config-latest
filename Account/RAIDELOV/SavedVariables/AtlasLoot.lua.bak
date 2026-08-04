@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Messier - Blackrock [PvP only]"] = "Messier - Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Messier - Blackrock [PvP only]"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Messier"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Messier"] = {
+		},
+	},
+}

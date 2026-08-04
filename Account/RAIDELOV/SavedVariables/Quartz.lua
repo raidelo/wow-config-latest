@@ -7,16 +7,22 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["main"] = {
-					["y"] = 625,
-					["x"] = 580,
+					["y"] = 340,
+					["x"] = 360,
+				},
+				["Default"] = {
+					["x"] = 630,
 				},
 			},
 		},
 		["Player"] = {
 			["profiles"] = {
 				["main"] = {
-					["y"] = 253,
-					["x"] = 580,
+					["y"] = 240,
+					["x"] = 675,
+				},
+				["Default"] = {
+					["x"] = 630,
 				},
 			},
 		},
@@ -24,16 +30,22 @@ Quartz3DB = {
 		["Focus"] = {
 			["profiles"] = {
 				["main"] = {
-					["y"] = 625,
-					["x"] = 820,
+					["y"] = 460,
+					["x"] = 300,
+				},
+				["Default"] = {
+					["x"] = 630,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["main"] = {
-					["y"] = 585,
-					["x"] = 580,
+					["y"] = 600,
+					["x"] = 675,
+				},
+				["Default"] = {
+					["x"] = 630,
 				},
 			},
 		},
@@ -41,11 +53,15 @@ Quartz3DB = {
 		["Mirror"] = {},
 		["Latency"] = {},
 	},
+	["profileKeys"] = {
+		["Messier - Blackrock [PvP only]"] = "main",
+	},
 	["profiles"] = {
 		["main"] = {
 			["modules"] = {
 				["Buff"] = false,
 			},
 		},
+		["Default"] = {},
 	},
 }

@@ -30,20 +30,20 @@ END
 MACRO 17777225 "Destro Abisario" INV_Misc_QuestionMark
 #showtooltip Invocar abisario
 /cast Dominación vil
-/castsequence reset=20 Invocar abisario; Enlace de alma
+/castsequence reset=10 Invocar abisario; Enlace de alma
 END
 MACRO 17777223 "Destro B" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,@player][mod:shift,@target][mod:ctrl/alt,@party1] Devorar magia
+/cast [nomod,@player][mod:shift,@mouseover,exists][mod:shift][mod:ctrl,@focus] Devorar magia
 /cast [nomod] Sacrificio
 END
 MACRO 17777224 "Destro BTN3" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,@mouseover,exists,harm][mod:shift,@focus,exists,harm][nomod,@target] Espiral de la muerte
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Espiral de la muerte
 END
 MACRO 17777221 "Destro C" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,@mouseover,exists,harm][mod:shift,@focus,exists,harm][nomod,@target] Miedo; [mod:ctrl] Torrente arcano
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Miedo
 END
 MACRO 17777216 "Destro E" INV_Misc_QuestionMark
 #showtooltip
@@ -51,7 +51,7 @@ MACRO 17777216 "Destro E" INV_Misc_QuestionMark
 END
 MACRO 17777219 "Destro F" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,@target][mod:alt,@focus] Maldición de los elementos; [mod:shift,@target][mod:ctrl,@focus] Maldición de las lenguas
+/cast [nomod][mod:alt,@focus] Maldición de los elementos; [mod:shift,@target][mod:ctrl,@focus] Maldición de las lenguas
 END
 MACRO 17777220 "Destro G" INV_Misc_QuestionMark
 #showtooltip [nomod] Piedra de salud vil; [mod:shift] Poción de maná rúnica
@@ -62,7 +62,7 @@ END
 MACRO 17777226 "Destro Manáfago" INV_Misc_QuestionMark
 #showtooltip Invocar manáfago
 /cast Dominación vil
-/castsequence reset=20 Invocar manáfago; Enlace de alma
+/castsequence reset=10 Invocar manáfago; Enlace de alma
 END
 MACRO 17777218 "Destro R" INV_Misc_QuestionMark
 #showtooltip
@@ -72,12 +72,12 @@ END
 MACRO 17777227 "Destro Súcubo" INV_Misc_QuestionMark
 #showtooltip Invocar súcubo
 /cast Dominación vil
-/castsequence reset=20 Invocar súcubo; Enlace de alma
+/castsequence reset=10 Invocar súcubo; Enlace de alma
 END
 MACRO 17777222 "Destro V" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,@mouseover,exists,harm][mod:shift,@focus,exists,harm][nomod,@target] Bloqueo de hechizo
-/cast [nomod,@mouseover,exists,harm][mod:shift,@focus,exists,harm][nomod,@target] Seducción
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Seducción
+/cast [mod:shift,@focus,exists,harm][nomod,@mouseover,exists,harm][nomod] Bloqueo de hechizo
 END
 MACRO 17777232 "Destro X" INV_Misc_QuestionMark
 #showtooltip

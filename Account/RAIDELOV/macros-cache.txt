@@ -1,4 +1,8 @@
-MACRO 2 "Destro N" INV_Misc_QuestionMark
+MACRO 1 "Warlock Armors" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Armadura vil, Armadura demoníaca
+END
+MACRO 2 "Warlock Teletransport" INV_Misc_QuestionMark
 #showtooltip
 /stopcasting
 /cast Círculo demoníaco: teletransporte

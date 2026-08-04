@@ -85,7 +85,3 @@ MACRO 17777232 "Destro Abisario" INV_Misc_QuestionMark
 /cast Dominación vil
 /castsequence reset=10 Invocar abisario; Enlace de alma
 END
-MACRO 17777233 "Destro Shift+2" INV_Misc_QuestionMark
-#showtooltip
-/castsequence Armadura vil, Armadura demoníaca
-END

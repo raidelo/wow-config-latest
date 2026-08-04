@@ -1,3 +1,8 @@
+MACRO 2 "Destro N" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Círculo demoníaco: teletransporte
+END
 MACRO 6 " " INV_Misc_QuestionMark
 #showtooltip Invocar manáfago
 /cast Dominación vil

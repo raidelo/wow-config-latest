@@ -64,7 +64,7 @@ Bartender4DB = {
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["Messier - Blackrock [PvP only]"] = {
+				["main"] = {
 					["position"] = {
 						["y"] = 30,
 						["x"] = -205,
@@ -79,7 +79,7 @@ Bartender4DB = {
 		["BlizzardArt"] = {},
 		["BagBar"] = {
 			["profiles"] = {
-				["Messier - Blackrock [PvP only]"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 70,
@@ -91,7 +91,7 @@ Bartender4DB = {
 		},
 		["StanceBar"] = {
 			["profiles"] = {
-				["Messier - Blackrock [PvP only]"] = {
+				["main"] = {
 					["position"] = {
 						["y"] = -15,
 						["x"] = -80,
@@ -103,7 +103,7 @@ Bartender4DB = {
 		},
 		["Vehicle"] = {
 			["profiles"] = {
-				["Messier - Blackrock [PvP only]"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 46,
@@ -115,7 +115,7 @@ Bartender4DB = {
 		},
 		["PetBar"] = {
 			["profiles"] = {
-				["Messier - Blackrock [PvP only]"] = {
+				["main"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 155,

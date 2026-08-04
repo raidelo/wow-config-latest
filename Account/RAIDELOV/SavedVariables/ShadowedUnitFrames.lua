@@ -1,4 +1,3 @@
-
 ShadowedUFDB = {
 	["profileKeys"] = {
 		["Messier - Blackrock [PvP only]"] = "Default",
@@ -161,8 +160,8 @@ ShadowedUFDB = {
 				},
 				["target"] = {
 					["anchorPoint"] = "C",
-					["x"] = 264.5999929904938,
-					["y"] = -138.5999963283539,
+					["x"] = 265,
+					["y"] = -125,
 				},
 				["raid"] = {
 					["anchorPoint"] = "C",
@@ -184,8 +183,8 @@ ShadowedUFDB = {
 					["anchorTo"] = "#SUFUnitplayer",
 				},
 				["player"] = {
-					["y"] = -138.5999963283539,
-					["x"] = -264.5999929904938,
+					["y"] = -125,
+					["x"] = -265,
 					["anchorPoint"] = "C",
 				},
 				["pettarget"] = {

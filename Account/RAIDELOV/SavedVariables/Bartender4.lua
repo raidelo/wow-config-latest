@@ -131,11 +131,11 @@ Bartender4DB = {
 		["Messier - Blackrock [PvP only]"] = "main",
 	},
 	["profiles"] = {
-		["Messier - Blackrock [PvP only]"] = {
+		["main"] = {
+			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 245,
 			},
-			["buttonlock"] = true,
 		},
 	},
 }

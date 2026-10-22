@@ -75,7 +75,19 @@ Bartender4DB = {
 				},
 			},
 		},
-		["XPBar"] = {},
+		["XPBar"] = {
+			["profiles"] = {
+				["main"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 242.5,
+						["y"] = 4,
+						["point"] = "TOPLEFT",
+					},
+				},
+			},
+		},
 		["BlizzardArt"] = {},
 		["BagBar"] = {
 			["profiles"] = {

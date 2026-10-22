@@ -142,11 +142,12 @@ ShadowedUFDB = {
 					["anchorTo"] = "$parent",
 				},
 				["party"] = {
-					["y"] = -60,
 					["point"] = "TOPLEFT",
-					["anchorTo"] = "#SUFUnitplayer",
-					["movedAnchor"] = "TL",
-					["relativePoint"] = "TOPLEFT",
+					["bottom"] = 535,
+					["x"] = 15,
+					["relativePoint"] = "BOTTOMLEFT",
+					["top"] = 760,
+					["y"] = 760,
 				},
 				["maintanktarget"] = {
 					["anchorPoint"] = "RT",
